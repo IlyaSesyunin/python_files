@@ -1,9 +1,8 @@
 from zipfile import ZipFile
 from pypdf import PdfReader
 from openpyxl import load_workbook
-import csv
 
-from tests.conftest import ZIP_FILE
+from tests.paths import ZIP_FILE
 
 
 def test_count_files():
